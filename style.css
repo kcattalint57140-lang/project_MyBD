@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100vh;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 1.5px 15px 2.5px;
+    height: 650px;
+    width: 450px;
+    border-radius: 5px;
+}
+#present_myBD, #present_myBD_timer, #text_,#future_myBD, #future_myBD_timer{
+    /* border:1px solid red; */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 7px;
+    padding: 7px;
+    height: 80px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#present_myBD_timer, #future_myBD_timer {
+    font-size: 20px;
+}
