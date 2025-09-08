@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+ @font-face {
+      font-family: 'Hack';
+      src: url('fonts/Hack-Regular.woff2') format('woff2'),
+           url('fonts/Hack-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
 html , body {
     height: 100vh;
     margin: 0;
+    font-family: 'Hack',monospace;
 }
 body {
     display: flex;
